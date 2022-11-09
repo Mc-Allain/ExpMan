@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Inventory Management System</string>
+    <string name="app_title">ExpMan</string>
+
+    <string name="calendar">Calendar</string>
+    <string name="products">Products</string>
+    <string name="expirations">Expirations</string>
+
+    <string name="sample_count">24×</string>
+    <string name="expiring">Expiring</string>
+
+    <string name="search">Search</string>
+    <string name="category">Category</string>
+
+    <string name="product_name">Product Name</string>
+    <string name="product_details">Product Details</string>
+
+    <string name="expiration_date">Expiration Date</string>
+    <string name="tag">Tag</string>
+
+    <string name="add_record">Add %s</string>
+    <string name="update_record">Update %s</string>
+    <string name="no_record">No %s</string>
+
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="loading">Loading…</string>
+    <string name="message_prompt">This is a message</string>
+    <string name="confirmation_prompt">Do you want to %s?</string>
+    <string name="ok">OK</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="required_input_error">%s is required.</string>
+    <string name="invalid_error">Invalid %s</string>
+    <string name="length_error">%s must be at least %d characters.</string>
+    <string name="match_error">%s does not match.</string>
+
+    <string name="success_message">Successfully %s the %s.</string>
+    <string name="failed_message">Failed to %s the %s.</string>
+</resources>

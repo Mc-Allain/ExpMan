@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TitleTextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:fontFamily">@font/amiko</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SubTitleTextView" parent="TitleTextView">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ActivityTitleTextView" parent="TitleTextView">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="MenuLabelTextView">
+        <item name="android:textColor">@color/blue_primary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/amiko</item>
+    </style>
+
+    <style name="LabelTextView" parent="MenuLabelTextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BluePrimaryLabelTextView" parent="LabelTextView">
+        <item name="android:textColor">@color/blue_primary</item>
+    </style>
+
+    <style name="BlueAccentLabelTextView" parent="LabelTextView">
+        <item name="android:textColor">@color/blue_accent</item>
+    </style>
+
+    <style name="GreenLabelTextView" parent="LabelTextView">
+        <item name="android:textColor">@color/lime</item>
+    </style>
+
+    <style name="RedLabelTextView" parent="LabelTextView">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="GrayTextView" parent="LabelTextView">
+        <item name="android:textColor">@color/black_accent</item>
+    </style>
+
+    <style name="MainCountTextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">@font/amiko</item>
+    </style>
+
+    <style name="WhiteCountTextView" parent="MainCountTextView">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="GreenCountTextView" parent="MainCountTextView">
+        <item name="android:textColor">@color/lime</item>
+    </style>
+
+    <style name="RedCountTextView" parent="MainCountTextView">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="MainCountSmallTextView" parent="MainCountTextView">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="WhiteCountSmallTextView" parent="MainCountSmallTextView">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="GreenCountSmallView" parent="MainCountSmallTextView">
+        <item name="android:textColor">@color/lime</item>
+    </style>
+
+    <style name="RedCountSmallView" parent="MainCountSmallTextView">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="CardMenuItem" parent="CardView">
+        <item name="cardElevation">2dp</item>
+        <item name="cardCornerRadius">8dp</item>
+    </style>
+
+    <style name="InputLabel">
+        <item name="android:fontFamily">@font/amiko</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="InputField">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">@drawable/input_bg_primary</item>
+        <item name="android:fontFamily">@font/amiko</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="InputFieldHint" parent="InputField">
+        <item name="android:textColorHint">@color/gray</item>
+    </style>
+
+    <style name="InputFieldTextView" parent="InputField">
+        <item name="android:background">@color/design_default_color_background</item>
+    </style>
+
+    <style name="InputFieldHintTextView" parent="InputFieldTextView">
+        <item name="android:textColorHint">@color/gray</item>
+    </style>
+
+    <style name="TemplateButton">
+        <item name="android:fontFamily">@font/amiko</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="elevation">3dp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="SmallTemplateButton" parent="TemplateButton">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="WhiteButton" parent="TemplateButton">
+        <item name="backgroundTint">@color/white</item>
+    </style>
+
+    <style name="WhiteSmallButton" parent="WhiteButton">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="DialogCard">
+        <item name="cardCornerRadius">16dp</item>
+    </style>
+
+    <style name="DialogTitleTextView" parent="ActivityTitleTextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="MessageTextView">
+        <item name="android:fontFamily">@font/amiko</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+    </style>
+
+</resources>
